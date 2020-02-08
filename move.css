@@ -1,0 +1,60 @@
+#background {
+  background-image: linear-gradient(90deg, #0D324D, #7F5A83
+);
+}
+#box{
+    border: 5px solid white;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 70px;
+}
+#circle {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: 25px;
+}
+.key {
+    height: 70px;
+    width: 70px;
+    border: 1px solid white;
+    font-size: 60px;
+    line-height: 60px;
+    color: white;
+}
+.up {
+    position: absolute;
+    top: 250px;
+    left: 189px;
+}
+.down {
+    position: absolute;
+    top: 325px;
+    left: 189px;
+}
+.left {
+    position: absolute;
+    top: 325px;
+    left: 114px;
+}
+.right {
+    position: absolute;
+    top: 325px;
+    right: 114px;
+}
+.up:before {
+    content: '\002191';
+}
+.down:before {
+    content: '\002193';
+}
+.left:before {
+    content: '\002190';
+}
+.right:before {
+    content: '\002192';
+}
+
